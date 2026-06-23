@@ -46,9 +46,9 @@ CREATE TABLE Users (
     LastName VARCHAR(50),
     Email VARCHAR(50),
     PRIMARY KEY (ID)
-)
+);
 --rollback DROP TABLE Users;
 
 --changeset maksym.malieiev:6 labels:0.0.3
-CREATE INDEX Email ON Users (Email)
+CREATE INDEX Email ON Users (Email);
 --rollback DROP INDEX Email ON Users;
