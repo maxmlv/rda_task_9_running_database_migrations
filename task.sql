@@ -40,7 +40,7 @@ CREATE TABLE ProductInventory (
 --rollback DROP TABLE ProductInventory;
 
 --changeset maksym.malieiev:5 labels:0.0.2
-CREATE TABLE Users (
+CREATE TABLE Users ( -- commmit for tests
     ID INT AUTO_INCREMENT,
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
